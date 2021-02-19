@@ -1,2 +1,8 @@
-/.ipynb_checkpoints
-/.vscode
+.ipynb_checkpoints/*
+.vscode/*
+/scaler.pickle
+/training_data.csv
+/training_data_label_encoded.csv
+/predict.py
+/model_functions.ipynb
+__pycache__/*
