@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 
 from regression_model.preprocessing.data_management import load_pipeline
-from regression_model.config import config
 
 pipeline_file_name = 'test.csv'
 price_pipe = load_pipeline(file_name=pipeline_file_name)

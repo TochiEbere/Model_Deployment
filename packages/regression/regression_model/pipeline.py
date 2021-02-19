@@ -1,11 +1,6 @@
-# Import libraries
-# from sklearn.base import BaseEstimator, TransformerMixin
-# import joblib
-# model = joblib.load('Lasso_model.pkl')
-
 import numpy as np
 import pandas as pd
-import preprocessors as proc
+from regression_model.preprocessing import preprocessors as proc
 from sklearn.pipeline import Pipeline
 from sklearn.linear_model import Lasso
 
